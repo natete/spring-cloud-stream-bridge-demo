@@ -1,0 +1,6 @@
+spring.cloud.stream:
+  bindings:
+    demo-channel-out-0:
+      producer:
+        use-native-encoding: true
+      content-type: application/json
